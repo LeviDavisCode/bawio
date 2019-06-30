@@ -159,3 +159,67 @@ li {
   font-size: 45px;
   color: white;
 }
+
+
+
+.middle-text {
+margin: 0;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+.middle-bottom {
+  font-size: 23px;
+  transition: 1s;
+  text-decoration: none;
+  color: white;
+}
+
+.middle-bottom:hover {
+  transition: 1s;
+  font-size: 25px;
+  letter-spacing: 7px;
+}
+
+
+
+
+
+/* Player */
+
+
+.player {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.closebtn-player {
+  text-decoration: none;
+  color: black;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.fa-file-image {
+   font-size: 70px;
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
