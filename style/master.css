@@ -241,3 +241,95 @@ margin: 0;
     height: 180px;
   }
 }
+
+/* About Page */
+
+.about-page {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.closebtn-about {
+  text-decoration: none;
+  color: black;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* Portfolio */
+
+.portfolio-page {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.closebtn-portfolio {
+  text-decoration: none;
+  color: black;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/*projects */
+
+.projects-page {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.closebtn-projects {
+  text-decoration: none;
+  color: black;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/*conatcts*/
+
+.contact-page {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.closebtn-contact {
+  text-decoration: none;
+  color: black;
+  font-size: 60px;
+  margin-left: 20px;
+  margin-top: 20px;
+}

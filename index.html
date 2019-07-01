@@ -12,54 +12,7 @@
     <script src="nav.js" type="text/javascript"></script>
     <script src="player.js" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/8f3b6b9bdd.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143083629-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-143083629-1');
-</script>
-
-    <title>Bawio | Levi Davis</title>
-  </head>
-  <body>
-      <img class="icon" src="imgs/icon-white.png">
-      <p class="opennav" onclick="openNav()">&#9776;</p>
-
-    <div class="nav-div">
-      <ul >
-        <li><a id="a" href="#">About</a></li>
-        <li><a id="a" href="#">Projects</a></li>
-        <li><a id="a" href="#">Portfolio</a></li>
-        <li><a id="a" href="#">Contact</a></li>
-      </ul>
-    </div>
-
-
-    <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn aa" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a class="aa" href="#">About</a>
-       <a class="aa" href="#">Projects</a>
-      <a class="aa" href="#">Portfolio</a>
-     <a class="aa" href="#">Contact</a>
-      </div>
-    </div>
-         <div class="middle-text">
-           <h1 class="middle-top">What Do We Do?</h1>
-            <a class="middle-bottom" href="javascript:void(0)" onclick="openPlay()">––Click here to find out––</a>
-         </div>
-
-         <div id="player" class="player">
-         <a href="javascript:void(0)" class="closebtn-player" onclick="closePlay()">&times;</a>
-
-<iframe class="player-iframe" src="https://player.vimeo.com/video/345463107"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
- 
-           </div>
-    
+    <script src="pages.js" type="text/javascript"></script>
     <script>
   (function () {
     var s = document.createElement('script');
@@ -72,5 +25,53 @@
     x.parentNode.insertBefore(s, x);
   })();
 </script>
+    <title>Bawio | Levi Davis</title>
+  </head>
+  <body>
+      <img class="icon" src="imgs/icon-white.png">
+      <p class="opennav" onclick="openNav()">&#9776;</p>
+
+    <div class="nav-div">
+      <ul >
+        <li><a id="a" href="#" onclick="oabout()">About</a></li>
+        <li><a id="a" href="#" onclick="oprojects()">Projects</a></li>
+        <li><a id="a" href="#" onclick="oportfolio()">Portfolio</a></li>
+        <li><a id="a" href="#" onclick="ocontact()">Contact</a></li>
+      </ul>
+    </div>
+
+
+    <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn aa" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a class="aa" href="#" onclick="oabout()">About</a>
+       <a class="aa" href="#" onclick="oprojects()">Projects</a>
+      <a class="aa" href="#" onclick="oportfolio()">Portfolio</a>
+     <a class="aa" href="#" onclick="ocontact()">Contact</a>
+      </div>
+    </div>
+         <div class="middle-text">
+           <h1 class="middle-top">What Do We Do?</h1>
+            <a class="middle-bottom" href="javascript:void(0)" onclick="openPlay()">––Click here to find out––</a>
+         </div>
+
+         <div id="player" class="player">
+         <a href="javascript:void(0)" class="closebtn-player" onclick="closePlay()">&times;</a>
+<iframe class="player-iframe" src="https://player.vimeo.com/video/345463107"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+           </div>
+
+          <div id="about-page" class="about-page">
+               <a href="javascript:void(0)" class="closebtn-about" onclick="cabout()"><i class="fas fa-long-arrow-alt-left"></i></a>
+          </div>
+          <div id="projects-page" class="projects-page">
+               <a href="javascript:void(0)" class="closebtn-projects" onclick="cprojects()"><i class="fas fa-long-arrow-alt-left"></i></a>
+          </div>
+          <div id="portfolio-page" class="portfolio-page">
+               <a href="javascript:void(0)" class="closebtn-portfolio" onclick="cportfolio()"><i class="fas fa-long-arrow-alt-left"></i></a>
+          </div>
+          <div id="contact-page" class="contact-page">
+               <a href="javascript:void(0)" class="closebtn-contact" onclick="cconact()"><i class="fas fa-long-arrow-alt-left"></i></a>
+          </div>
+
   </body>
 </html>
